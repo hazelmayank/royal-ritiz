@@ -16,9 +16,7 @@ const Navbar = () => {
   ];
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
+    const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -39,9 +37,20 @@ const Navbar = () => {
           <span className="navbar-location">HUBALI</span>
         </div>
 
-        <Link to="/" className="navbar-logo">
-          Royal Ritis
-        </Link>
+        <div className="navbar-center">
+          <Link to="/" className="navbar-logo">
+            Royal Ritis
+          </Link>
+
+          {/* 📰 Location Ticker below the logo */}
+          <div className="news-ticker">
+            <div className="ticker-content">
+              <span>HUBLI • BUNKERS • BELGAUM</span>
+              <span>HUBLI • BUNKERS • BELGAUM</span>
+              <span>HUBLI • BUNKERS • BELGAUM</span>
+            </div>
+          </div>
+        </div>
 
         <div className="navbar-right">
           <button className="book-now-btn">BOOK NOW</button>

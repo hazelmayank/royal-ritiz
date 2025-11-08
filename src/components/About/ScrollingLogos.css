@@ -1,0 +1,57 @@
+/* --- Scrolling Logos Section --- */
+.scrolling-logos-section {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.scrolling-logos-track {
+  display: flex;
+  align-items: center;
+  animation: scrollLeft 25s linear infinite;
+  width: max-content;
+}
+
+.scrolling-logo {
+  height: 50px;
+  margin: 0 40px;
+  opacity: 0.85;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+
+.scrolling-logo:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+/* animation */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .scrolling-logo {
+    height: 40px;
+    margin: 0 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .scrolling-logo {
+    height: 30px;
+    margin: 0 20px;
+  }
+}

@@ -4,7 +4,7 @@ import AboutCard from "../components/About/AboutCard";
 import EnquiryForm from "../components/About/EnquiryForm";
 import MapSection from "../components/About/MapSection";
 import hotel from '../optimized-assets/Untitled_HDR-2 copy.webp';
-
+import ScrollingLogos from "@/components/About/ScrollingLogos";
 
 const About = () => {
   return (
@@ -16,6 +16,7 @@ const About = () => {
         image={hotel}
         
       />
+      <ScrollingLogos />
       <EnquiryForm />
       <MapSection />
     </>
