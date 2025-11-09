@@ -22,18 +22,22 @@ const Footer = () => {
           {/* Column 1: Contact Information */}
           <div className="footer-section contact-info">
             <h3>Address</h3>
-            <p>Gram, Industrial Area, 608/2, Amargol, KIADB, Hubballi, Karnataka 580025</p>
+            <p>Royal Ritis (unit of Stream Entertainment)
+Near Infosys 
+Airport Road, Gokul- Hubballi, 580 030
+Phone; 0836 2239299
+</p>
 
             <h3>Phone</h3>
-            <p>+91 96060 17457</p>
+            <p>+91 63644 67071/ 72</p>
 
             <h3>Contact Emails</h3>
-            <p><a href="mailto:fnb@royalritz.in">fnb@royalritis.in</a></p>
-            <p><a href="mailto:sales@royalritz.in">sales@royalritis.in</a></p>
-            <p><a href="mailto:reservation@royalritz.in">reservation@royalritis.in</a></p>
+            <p><a href="mailto:reservations@royalritishbl.cm ">reservations@royalritishbl.cm </a></p>
+            <p><a href="mailto:bqt@royalritishbl.com">bqt@royalritishbl.com</a></p>
+            <p><a href="mailto:sales@royalritishbl.com">sales@royalritishbl.com</a></p>
 
             <h3>Website</h3>
-            <p><a href="http://www.royalritz.in" target="_blank" rel="noopener noreferrer">www.royalritis.in</a></p>
+            <p><a href="https://royalritishbl.com/" target="_blank" rel="noopener noreferrer">www.royalritishbl.com </a></p>
 
             <div className="social-media">
               <a href="#" aria-label="Facebook" className="social-icon facebook"><FaFacebookF /></a>

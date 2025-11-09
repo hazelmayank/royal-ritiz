@@ -7,7 +7,7 @@ import spa from '../../optimized-assets/spa.webp';
 import { Link } from "react-router-dom";
 const services = [
   {
-    title: "Spa",
+    title: "LUXE Spa",
     description:
       "Rejuvenate your body and soul with our professional spa therapies and wellness treatments designed to relax and refresh you.",
     image:
@@ -17,7 +17,7 @@ const services = [
   {
     title: "Banquet",
     description:
-      "Host your special occasions in our luxurious banquet halls equipped with modern amenities and elegant decor for unforgettable events.",
+      "Host your special occasions in our luxurious banquet halls, equipped with modern amenities and elegant decor for truly unforgettable events. We also offer outdoor catering with grand setups, delicious food, and excellent service.",
     image:
       banquet,
       link:"banquet"
@@ -26,7 +26,7 @@ const services = [
   {
     title: "Restaurant",
     description:
-      "Savor exquisite cuisines prepared by our expert chefs. Experience fine dining with an ambiance that delights all your senses.",
+      "Savor exquisite cuisines prepared by our expert chefs. Experience fine dining in an ambiance that delights all your senses, complete with a beautiful view and an open-air seating option for a truly soothing and relaxing experience",
     image:
       restaurant,
       link:"restaurant"

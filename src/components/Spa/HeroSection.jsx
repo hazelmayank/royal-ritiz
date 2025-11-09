@@ -14,7 +14,7 @@ const HeroSection = () => {
 
       {/* Main Content - Centered */}
       <div className="hero-content">
-        <h1 className="hero-title">Luxury Spa</h1>
+        <h1 className="hero-title">LUXE (Luxury Spa)</h1>
         <p className="hero-subtitle">
           Explore a whole world of beauty, health and well-being in our expansive Spa & Fitness centre. 
           Take your time browsing our extensive treatment menu to find your perfect method of relaxation.

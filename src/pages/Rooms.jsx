@@ -29,17 +29,17 @@ const Rooms = () => {
       imageAlt: "Suite Room",
     },
     {
-      title: "Cottage Room",
+      title: "The Villa",
       size: "45 m² / 484 ft²",
       guests: "Up to 2 Guests",
       view: "Garden view",
       description:
-        "Escape to our charming Cottage Rooms with private pool access and tranquil garden views. These intimate accommodations offer a perfect blend of comfort and serenity in a unique, secluded setting.",
+        "Escape to our charming Villa access and tranquil garden views. These intimate accommodations offer a perfect blend of comfort and serenity in a unique, secluded setting",
       image: room3,
-      imageAlt: "Cottage Room",
+      imageAlt: "The Villa",
     },
     {
-      title: "Superior Twin Room",
+      title: "Executive rooms (with both King size n` Twin Beds)",
       size: "32 m² / 344 ft²",
       guests: "Up to 2 Guests",
       view: "City view",

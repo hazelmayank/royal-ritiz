@@ -13,6 +13,13 @@ const Spa = () => {
       imageAlt: "Sauna"
     },
     {
+      title: "WAVES (SWIMMING POOL)",
+      description: "Experience our swimming pool, located on the terrace with breathtaking city views and refreshing breezes. Relax and enjoy a unique kiss to the sky feeling from our top floor, surrounded by elegant glass walls.",
+      image: banquet,
+      imageAlt: "Wellness"
+    },
+
+    {
       title: "WELLNESS",
       description: "Comprehensive wellness programs designed to rejuvenate your mind, body, and spirit. Our holistic approach combines ancient healing traditions with modern wellness techniques. From personalized fitness programs to mindfulness sessions, discover a complete path to optimal health and vitality.",
       image: banquet,

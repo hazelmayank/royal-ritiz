@@ -12,17 +12,15 @@ const RestaurantCard = () => {
       </div>
 
       <div className="restaurant-card-content">
-        <h2 className="restaurant-name">Tangerine</h2>
+        <h2 className="restaurant-name">ESCAPE (the BAR)</h2>
         <p className="restaurant-description">
-          Welcome to <strong>Tangerine</strong> — a fine dining experience offering
-          exquisite flavors and an indulgent buffet spread. Enjoy gourmet creations
-          made from the freshest ingredients in a luxurious ambience.
+          Welcome to <strong>ESCAPE (the BAR)</strong> experience our lounge bar, where you can enjoy comfortable seating, magnificent music, and a wide selection of professional cocktails and mocktails crafted by our skilled bartender. We offer a full range of liquors to suit every taste.
         </p>
 
         <div className="restaurant-details">
           <div className="restaurant-detail">
-            <span className="label">Style</span>
-            <span className="value">Buffet</span>
+            <span className="label">Service</span>
+            <span className="value">A-la carte </span>
           </div>
           <div className="restaurant-detail">
             <span className="label">Cuisine</span>

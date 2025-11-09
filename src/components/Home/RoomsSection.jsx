@@ -6,26 +6,31 @@ import room2 from '../../optimized-assets/room1.webp';
 import room3 from '../../optimized-assets/rooms2.webp';
 const rooms = [
   {
-    title: "Deluxe Room",
+    title: "Executive Rooms",
     description:
-      "Experience comfort and elegance in our Deluxe Room featuring modern interiors, a cozy queen-sized bed, and city views.",
+      "Rooms across various categories. These fully spacious rooms include comfortable washrooms and maintain the highest standards of hygiene for your comfort",
     image:
       room1,
   },
   {
-    title: "Executive Suite",
+    title: "Delux Rooms",
     description:
-      "Enjoy the luxury of space and sophistication with a private lounge area, premium bedding, and a balcony overlooking the skyline.",
+      "Experience comfort and elegance in our Deluxe Room featuring modern interiors, a cozy queen-sized bed, and green views.",
     image:
       room2,
   },
   {
-    title: "Family Room",
+    title: "Suites",
     description:
-      "Perfect for families or groups, our spacious Family Room includes multiple beds, ample storage, and warm, inviting décor.",
+      "Enjoy the luxury of space and sophistication with a private lounge area, premium bedding, and a balcony overlooking the skyline.",
     image:
       room3,
   },
+  {
+    title:"Family Room",
+    description:"Enjoy the luxury of space and sophistication with a private lounge area, premium bedding, and a balcony overlooking the skyline.",
+    image:room1,
+  }
 ];
 
 const OurServices = () => {
